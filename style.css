@@ -167,3 +167,14 @@ display:flex;
 }
 
 }
+.features{
+display:flex;
+justify-content:space-around;
+background:#fff;
+padding:30px;
+text-align:center;
+}
+
+.features div{
+width:30%;
+}
