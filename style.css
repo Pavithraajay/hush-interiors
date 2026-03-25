@@ -178,3 +178,19 @@ text-align:center;
 .features div{
 width:30%;
 }
+
+.about-image{
+display:flex;
+align-items:center;
+padding:30px;
+gap:20px;
+}
+
+.about-image img{
+width:40%;
+border-radius:8px;
+}
+
+.about-image div{
+width:60%;
+}
