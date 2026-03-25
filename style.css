@@ -135,3 +135,35 @@ transition:0.3s;
 .gallery img:hover{
 transform:scale(1.05);
 }
+
+.menu-toggle{
+display:none;
+font-size:28px;
+cursor:pointer;
+color:white;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+text-align:right;
+margin-right:20px;
+}
+
+.nav{
+display:none;
+flex-direction:column;
+background:black;
+}
+
+.nav a{
+display:block;
+padding:10px;
+}
+
+.nav.active{
+display:flex;
+}
+
+}
