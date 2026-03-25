@@ -4,35 +4,51 @@
 <title>Contact - Hush Interiors</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+<header>
 <h1>Hush Interiors</h1>
 
-<nav>
+<nav class="nav">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
 <a href="services.html">Services</a>
 <a href="contact.html">Contact</a>
 </nav>
+</header>
 
+<section>
 <h2>Contact Us</h2>
 
-<form>
-<label>Name:</label><br>
-<input type="text" placeholder="Enter your name"><br><br>
+<div class="contact-container">
 
-<label>Email:</label><br>
-<input type="email" placeholder="Enter your email"><br><br>
+<div class="contact-info">
+<h3>Get in Touch</h3>
+<p>📍 Bangalore, India</p>
+<p>📞 +91 98765 43210</p>
+<p>✉️ hushinteriors@gmail.com</p>
+<p>We’d love to design your dream space. Contact us today.</p>
+</div>
 
-<label>Message:</label><br>
-<textarea placeholder="Your message"></textarea><br><br>
+<form class="contact-form">
 
-<button>Send</button>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<input type="text" placeholder="Subject">
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
 </form>
 
-<p>Email: hushinteriors@gmail.com</p>
-<p>Phone: +91 9xxx54xx10</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Hush Interiors</p>
+</footer>
 
 </body>
 </html>
