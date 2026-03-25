@@ -205,3 +205,40 @@ display:flex;
 gap:20px;
 flex-wrap:wrap;
 }
+
+.contact-container{
+display:flex;
+gap:30px;
+padding:30px;
+}
+
+.contact-info{
+width:40%;
+}
+
+.contact-form{
+width:60%;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-form button{
+background:#8b5e3c;
+color:white;
+padding:10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.contact-form button:hover{
+background:#6d4c2f;
+}
